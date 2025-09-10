@@ -1,0 +1,13 @@
+**.d.ts
+/packages/elong
+dist
+node_modules
+.eslintrc.cjs
+node_modules
+package.json
+pnpm-lock.yaml
+dist
+**/node_modules
+**/dist
+eslintrc-auto-import.json
+packages/mVant/ui

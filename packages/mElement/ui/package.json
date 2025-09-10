@@ -1,0 +1,50 @@
+{
+  "name": "elong-ui-element",
+  "version": "1.0.4",
+  "description": "elong-ui-elementplus",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "typings": "es/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./es/index.d.ts",
+      "import": "./es/index.mjs",
+      "require": "./lib/index.js"
+    },
+    "./es": {
+      "types": "./es/index.d.ts",
+      "import": "./es/index.mjs"
+    },
+    "./lib": {
+      "types": "./lib/index.d.ts",
+      "require": "./lib/index.js"
+    },
+    "./*": "./*"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "ui",
+    "vue",
+    "vue3",
+    "element-plus"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "peerDependencies": {
+    "vue": "^3.2.0",
+    "element-plus": "^2.11.1"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "author": "ZhouGaoFeng tzjz6065278@163.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://git.17usoft.com/elonghotel/elong-ui.git"
+  }
+}

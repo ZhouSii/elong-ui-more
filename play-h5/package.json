@@ -1,0 +1,21 @@
+{
+  "name": "play-h5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-px-to-viewport": "^1.1.1",
+    "vant": "^4.6.4"
+  },
+  "devDependencies": {
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "@vitejs/plugin-vue-jsx": "^3.0.2"
+  }
+}

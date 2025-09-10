@@ -1,0 +1,23 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite-plugin-style-import": "^2.0.0",
+    "vitepress": "1.0.0-rc.4",
+    "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@elong-ui/vant": "workspace:^1.0.0",
+    "vant": "^4.6.4"
+  }
+}

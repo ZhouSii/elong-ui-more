@@ -1,0 +1,51 @@
+{
+  "name": "@elong-ui/element",
+  "version": "1.0.4",
+  "description": "",
+  "type": "module",
+  "main": "./ui/lib/index.js",
+  "module": "./ui/es/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./ui/es/index.mjs",
+      "require": "./ui/lib/index.js"
+    },
+    "./style": "./ui/es/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "NODE_OPTIONS=\"--max-old-space-size=4096\" vite build",
+    "build:watch": "NODE_OPTIONS=\"--max-old-space-size=4096\" vite build --watch --mode development",
+    "clean": "rm -rf ui/es ui/lib",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@unocss/preset-attributify": "66.5.0",
+    "@unocss/preset-icons": "66.5.0",
+    "@unocss/preset-uno": "66.5.0",
+    "@unocss/transformer-compile-class": "66.5.0",
+    "@unocss/transformer-directives": "66.5.0",
+    "@unocss/transformer-variant-group": "66.5.0",
+    "chalk": "^5.6.0",
+    "enquirer": "^2.4.1",
+    "execa": "^5.1.1",
+    "fs-extra": "^11.3.1",
+    "minimist": "^1.2.8",
+    "semver": "^7.7.2",
+    "unocss": "66.5.0",
+    "element-plus": "^2.11.1",
+    "@element-plus/icons-vue": "^2.3.2"
+  },
+  "dependencies": {
+    "@elong-ui/hooks": "workspace:*",
+    "@vitejs/plugin-vue-jsx": "^3.0.2"
+  },
+  "peerDependencies": {
+    "element-plus": "^2.0.0",
+    "@element-plus/icons-vue": "^2.0.0",
+    "vue": "^3.0.0"
+  }
+}

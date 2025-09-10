@@ -1,0 +1,4 @@
+const index_vue_vue_type_style_index_0_scoped_4c0665a9_rel_stylesheet_2Fscss_lang = "";
+export {
+  index_vue_vue_type_style_index_0_scoped_4c0665a9_rel_stylesheet_2Fscss_lang as default
+};

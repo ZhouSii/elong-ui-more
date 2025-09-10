@@ -1,0 +1,28 @@
+{
+  "name": "play",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "element-plus": "^2.11.1"
+  },
+  "devDependencies": {
+    "@unocss/preset-attributify": "^66.5.0",
+    "@unocss/preset-icons": "^66.5.0",
+    "@unocss/preset-uno": "^66.5.0",
+    "@unocss/transformer-directives": "^66.5.0",
+    "@unocss/transformer-variant-group": "^66.5.0",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "unocss": "66.5.0",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-element-plus": "^0.10.0",
+    "unplugin-vue-components": "^0.25.1"
+  }
+}
